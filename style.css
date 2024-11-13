@@ -18,7 +18,7 @@ body {
     color: #000000;
     margin-top: 24px; /* Top margin set to 24px */
     margin-left: 28px; /* Left margin set to 24px */
-    letter-spacing: 0.5px;
+    letter-spacing: -0.5px;
 }
 
 /* Container styling for alignment and spacing */
@@ -32,7 +32,7 @@ body {
 .container p {
     font-size: 0.8em;
     margin-bottom: 24px; /* Bottom margin between paragraphs set to 24px */
-    letter-spacing: 0.5px;
+    letter-spacing: -0.5px;
 }
 
 /* Link styling */
@@ -40,7 +40,7 @@ body {
     color: #000000; /* Full black */
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth color transition */
-    letter-spacing: 0.5px;
+    letter-spacing: -0.5px;
 }
 
 /* Hover effect: change to 50% black */
