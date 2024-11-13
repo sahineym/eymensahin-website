@@ -1,0 +1,47 @@
+/* Load the custom font */
+@font-face {
+    font-family: 'UniversExNew';
+    src: url('UniversEx[T].ttf') format('truetype');
+}
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with custom font and increased margin */
+body {
+    font-family: 'UniversExNew', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 24px; /* Top margin set to 24px */
+    margin-left: 28px; /* Left margin set to 24px */
+}
+
+/* Container styling for alignment and spacing */
+.container {
+    text-align: left;
+    max-width: 600px;
+    line-height: 16px; /* Reduced line height to 90% of 24px */
+}
+
+/* Text styling */
+.container p {
+    font-size: 0.8em;
+    margin-bottom: 24px; /* Bottom margin between paragraphs set to 24px */
+}
+
+/* Link styling */
+.container a {
+    color: #000000; /* Full black */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect: change to 50% black */
+.container a:hover {
+    color: rgba(0, 0, 0, 0.5); /* 50% black */
+    text-decoration: none; /* No underline */
+}
